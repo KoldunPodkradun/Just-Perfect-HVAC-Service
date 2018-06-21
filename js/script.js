@@ -251,7 +251,7 @@ $(document).ready(function() {
                     map: map,
                     position: results[0].geometry.location,
                     title: document.title,
-                    icon: '/img/map-pin.svg'
+                    icon: '../img/map-pin.svg'
                 });
             } else {
                 console.log('Geocode was not successful for the following reason: ' + status);
